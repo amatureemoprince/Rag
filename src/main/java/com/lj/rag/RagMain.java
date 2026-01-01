@@ -1,4 +1,4 @@
-package src.main.java.com.lj.rag;
+package com.lj.rag;
 
 /**
  * @ClassName src.main.java.com.lj.rag.RagMain
