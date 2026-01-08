@@ -10,7 +10,7 @@ import java.time.LocalDateTime;
 
 /**
  * @ClassName User
- * @Description
+ * @Description 用户实体类
  * @Author Dark Chocolate 2069057986@qq.com
  * @Date 2026/1/7 22:09
  * @Version JDK 17
@@ -61,4 +61,9 @@ public class User {
      * 更新时间
      */
     private LocalDateTime updatedAt;
+
+    /**
+     * 逻辑删除
+     */
+    private  Integer isDeleted;
 }

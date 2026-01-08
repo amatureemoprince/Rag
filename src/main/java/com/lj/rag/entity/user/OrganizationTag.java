@@ -54,4 +54,9 @@ public class OrganizationTag {
      * 更新时间
      */
     private LocalDateTime updatedAt;
+
+    /**
+     * 逻辑删除
+     */
+    private  Integer isDeleted;
 }
